@@ -50,7 +50,7 @@ module.exports = {
 
     // ?? content yang akan di-serve berada pada folder `dist`
     // ?? (dapat kita tentukan sesuai kebutuhan, tapi defaultnya adalah folder `dist`)
-    contentBase: "./dist"
+    contentBase: "./public"
   }
 
 }
