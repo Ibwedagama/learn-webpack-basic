@@ -1,0 +1,7 @@
+{
+  // ** preset default yang akan digunakan adalah preset @babel/preset-env
+  "presets": ["@babel/preset-env"]
+}
+
+// ** yang terjadi adalah webpack akan menjalankan loader `babel-loader`, dimana kemudian akan 
+// ** menggunakan @babel/core dengan preset default yaitu @babel/preset-env
