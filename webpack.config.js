@@ -22,6 +22,14 @@ module.exports = {
 
   // ?? `source-map` akan menggenerate file `main.js.map`, dimana akan memudahkan developer saat melakukan debugging, 
   // ?? karena tiap function yang digunakan akan diperlihatkan dengan lebih jelas pada devtool browser
-  devtool: "source-map"
+  devtool: "source-map",
+
+  // ?? menambahkan `devServer` untuk membuat local development server sendiri
+  devServer: {
+
+    // ?? content yang akan di-serve berada pada folder `dist`
+    // ?? (dapat kita tentukan sesuai kebutuhan, tapi defaultnya adalah folder `dist`)
+    contentBase: "./dist"
+  }
 
 }
