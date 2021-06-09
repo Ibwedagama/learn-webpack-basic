@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("hello from index.js"),console.log("merlin"),console.log("bronn")})();
